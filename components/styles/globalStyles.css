@@ -26,6 +26,11 @@
     flex: 1;
 }
 
+.trademark {
+    font-size: .9rem;
+    font-weight: bold;
+}
+
 .nav-title-text {
     color: #6AA4FF;
     margin-left: 1rem;
@@ -183,21 +188,6 @@
     flex-direction: row;
 }
 
-.globe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(../../public/assets/m.jpg);
-    background-size: cover;
-    border-radius: 50%;
-    box-shadow: -20px -20px 50px 2px rgba(3, 27, 49, 0.788) inset, 0 0 25px 1px rgb(129, 128, 128);
-    /* width: 300px; */
-    /* height: 300px; */
-    width: 27rem;
-    height: 27rem;
-    animation: spin 30s linear infinite;
-}
-
 @keyframes spin {
     100%{background-position: 100%;}
 }
@@ -276,7 +266,7 @@
 }
 
 .each-banner {
-    box-shadow: 2px 2px 15px 2px rgba(221, 221, 221, 0.774);
+    /* box-shadow: 2px 2px 15px 2px rgba(221, 221, 221, 0.774); */
     margin: 10px;
 }
 
@@ -297,4 +287,40 @@
 
 .authentic, .stories {
     color: #0F9D58;
+}
+
+.conditions {
+    padding: 4rem;
+}
+
+.conditions h2 {
+    color: #6AA4FF;
+    padding: 1rem 0rem;
+}
+
+.conditions h5 {
+    padding: .5rem 0rem;
+}
+
+.conditions h3 {
+    padding: .5rem 0rem;
+}
+
+.conditions p {
+    padding: .5rem 0rem;
+}
+
+.padded {
+    padding: 0rem 2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links p {
+    color: #1C6DD0 !important;
+    font-size: .9rem;
+    text-decoration: underline;
 }
