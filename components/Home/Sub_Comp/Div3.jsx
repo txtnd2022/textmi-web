@@ -4,6 +4,9 @@ import Pic_1 from '../../../public/assets/tripura.svg'
 import Pic_2 from '../../../public/assets/nascom.svg'
 import Pic_3 from '../../../public/assets/nascom2.svg'
 import Pic_4 from '../../../public/assets/dit.svg'
+import Pic_5 from '../../../public/assets/dtu.png'
+import Pic_6 from '../../../public/assets/meity.png'
+import Pic_7 from '../../../public/assets/dtvl.jpg'
 
 function Div3() {
 
@@ -23,6 +26,18 @@ function Div3() {
         {
             'id': 3,
             'Pic': Pic_1, 
+        },
+        {
+            'id': 4,
+            'Pic': Pic_5, 
+        },
+        {
+            'id': 5,
+            'Pic': Pic_6, 
+        },
+        {
+            'id': 6,
+            'Pic': Pic_7, 
         }
     ]
 
@@ -36,7 +51,7 @@ function Div3() {
                     SUPPORT_BANNERS.map((c) => {
                         return (
                             <div key={c.id} className="each-banner">
-                                <Image src={c.Pic} />
+                                <Image width={200} height={150} src={c.Pic} />
                             </div>
                         )
                     })
