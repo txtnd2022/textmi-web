@@ -2,7 +2,6 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import { MY_CONTROLLERS } from '../my_controllers'
 import Image from 'next/image'
-import Fast from '../../../public/assets/fast.svg'
 import { findDOMNode } from 'react-dom'
 
 function Left_div({ props }) {

@@ -27,6 +27,36 @@ function Div3() {
             'id': 3,
             'Pic': Pic_1, 
         },
+        // {
+        //     'id': 4,
+        //     'Pic': Pic_5, 
+        // },
+        // {
+        //     'id': 5,
+        //     'Pic': Pic_6, 
+        // },
+        // {
+        //     'id': 6,
+        //     'Pic': Pic_7, 
+        // }
+    ]
+    const SUPPORT_BANNERS2 = [
+        // {
+        //     'id': 0,
+        //     'Pic': Pic_4
+        // },
+        // {
+        //     'id': 1,
+        //     'Pic': Pic_2
+        // },
+        // {
+        //     'id': 2,
+        //     'Pic': Pic_3
+        // },
+        // {
+        //     'id': 3,
+        //     'Pic': Pic_1, 
+        // },
         {
             'id': 4,
             'Pic': Pic_5, 
@@ -51,7 +81,18 @@ function Div3() {
                     SUPPORT_BANNERS.map((c) => {
                         return (
                             <div key={c.id} className="each-banner">
-                                <Image width={200} height={150} src={c.Pic} />
+                                <Image width={500} height={450} src={c.Pic} />
+                            </div>
+                        )
+                    })
+                }
+            </div>
+            <div className="support-container">
+                {
+                    SUPPORT_BANNERS2.map((c) => {
+                        return (
+                            <div key={c.id} className="each-banner">
+                                <Image width={195} height={180} src={c.Pic} />
                             </div>
                         )
                     })

@@ -4,7 +4,8 @@ import Pic_1 from '../../../public/assets/tripura.svg'
 import Pic_2 from '../../../public/assets/nascom.svg'
 import Pic_3 from '../../../public/assets/nascom2.svg'
 import Pic_4 from '../../../public/assets/dit.svg'
-
+import chatscreen from '../../../public/assets/chat-screen.png'
+import drawerscreen from '../../../public/assets/drawer-screen.png'
 function Div3() {
 
     const SUPPORT_BANNERS = [
@@ -29,9 +30,17 @@ function Div3() {
     return (
         <div className='supported-by'>
             <div className="header">
-                <h3 className='text-l'>Key Features</h3>
+                <h3 className='text-l'>Product Features</h3>
             </div>
-            <div className="support-container">
+            <div className='column-card'>
+                <div className='card-1'>
+                    <Image src={drawerscreen} height={550} width={300}/>
+                </div>
+                <div className='card-2'>
+                <Image src={chatscreen} height={550} width={300}/>
+                </div>
+            </div>
+            {/* <div className="support-container">
                 {
                     SUPPORT_BANNERS.map((c) => {
                         return (
@@ -41,7 +50,7 @@ function Div3() {
                         )
                     })
                 }
-            </div>
+            </div> */}
         </div>
     )
 }

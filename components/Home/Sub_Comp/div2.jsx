@@ -50,7 +50,7 @@ function Div2() {
                                         <h2 className={c.custome_header} > {c.Name} </h2>
                                         <p> {c.Body} </p>
                                     </div>
-                                    : <div></div>
+                                    : <> </>
                             )
                         })
                     }

@@ -1,10 +1,6 @@
 import F1 from '../../public/assets/1.png'
 import F2 from '../../public/assets/2.png'
 import F3 from '../../public/assets/3.png'
-import F4 from '../../public/assets/4.png'
-import F5 from '../../public/assets/5.png'
-import F6 from '../../public/assets/6.png'
-import F8 from '../../public/assets/8.png'
 
 
 
@@ -21,15 +17,15 @@ export const FEATURES_CONTROLLER = [
         'Key': 1,
         'Name': 'Video & Voice calling',
         'custome_header' : 'calling',
-        'Image_Src': F8,
+        'Image_Src': F1,
         'Body' : 'Enjoy high quality video and voice calling with your friends. We use state-of-the-art end-to-end encryption for the calls because for use, privacy is priority. Hence, all your calls are secure and not tracked. All this for free.',
     },
     {
         'Key': 2,
         'Name': 'Share Stories',
         'custome_header' : 'stories',
-        'Image_Src': F1,
-        'Body' : ' Textmi lets you share your favorite moments of the through \'Stories\' with your preferred peoples. Share photos, videos, links or a text message. And you can see stories shared by others as well.',
+        'Image_Src': F2,
+        'Body' : ' Txtend lets you share your favorite moments of the through \'Stories\' with your preferred peoples. Share photos, videos, links or a text message. And you can see stories shared by others as well.',
     }
 
 ]
