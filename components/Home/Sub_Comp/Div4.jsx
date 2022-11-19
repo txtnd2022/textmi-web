@@ -29,16 +29,23 @@ function Div3() {
 
     return (
         <div className='supported-by'>
-            <div className="header">
-                <h3 className='text-l'>Product Features</h3>
-            </div>
+            {/* <div className="header"> */}
+                {/* <h3 className='text-l'>Product Features</h3> */}
+            {/* </div> */}
             <div className='column-card'>
                 <div className='card-1'>
-                    <Image src={drawerscreen} height={550} width={300}/>
+                    <h3>Design for the New Generation Flow</h3>
+                    <br />
+                    <Image src={drawerscreen} height={520} width={300}/>
                 </div>
                 <div className='card-2'>
-                <Image src={chatscreen} height={550} width={300}/>
+                <h3>Build to keep your conversations clean</h3>
+                    <br />
+                <Image src={chatscreen} height={520} width={300}/>
                 </div>
+            </div>
+            <div className="header"> 
+                {/* <h3 className='text-l'>Product Features</h3> */}
             </div>
             {/* <div className="support-container">
                 {

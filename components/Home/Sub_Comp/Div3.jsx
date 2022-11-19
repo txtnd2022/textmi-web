@@ -81,7 +81,7 @@ function Div3() {
                     SUPPORT_BANNERS.map((c) => {
                         return (
                             <div key={c.id} className="each-banner">
-                                <Image width={500} height={450} src={c.Pic} />
+                                <Image width={200} height={150} src={c.Pic} />
                             </div>
                         )
                     })
@@ -92,7 +92,7 @@ function Div3() {
                     SUPPORT_BANNERS2.map((c) => {
                         return (
                             <div key={c.id} className="each-banner">
-                                <Image width={195} height={180} src={c.Pic} />
+                                <Image width={190} height={160} src={c.Pic} />
                             </div>
                         )
                     })

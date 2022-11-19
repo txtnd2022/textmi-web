@@ -11,6 +11,7 @@ function Footer() {
                     </p> */}
                     
                     <div className='links'>
+                        <p>Contact us</p>
                     <p> <Link href={'/termsofuse'} > FAQ</Link></p>
                         <p> <Link href={'/termsofuse'} > Terms of Use </Link></p>
                         <p><Link href={'/privacypolicy'} > Privacy Policy </Link></p>
